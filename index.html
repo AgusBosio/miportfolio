@@ -36,11 +36,7 @@
       <li></li>
     </ul> <!-- FIN AREA ANIMACION BACKGROUND -->
     <div class="container"> <!-- INICIO CONTENEDOR PRINCIPAL CV -->
-     
-      
       <div class="col_izq"> <!-- INICIO CONTENEDOR COL-IZQ -->
-        
-       
         <div class="bckgrd">
           <div class="pimg">
             <img class="otw" src="/img/otw.png" alt="Imagen del Perfil del CV" />
@@ -48,7 +44,8 @@
           </div>
         </div>
         <div class="nombre_info">
-          <h2>Agustin P. Bosio<br /><span>Fullstack Web Developer Trainee</span></h2>
+          <h2 id="nombre"><br /></h2>
+          <h2><span>Fullstack Web Developer Trainee</span></h2>
         </div>
         <div class="divisor"></div> <!-- Divisor -->
         <div class="contacto_info">
@@ -104,8 +101,8 @@
         <nav>
           <ul>
             <li><a href="">Posiciona el Mouse Aqui</a></li>
-            <li><a href="refresh">Actualizar</a></li>
-            <li><a href="#contacto">Contacto</a></li>
+            <li><a onmousedown="actualizarPagina()">Actualizar</a></li>
+            <li><a href="https://www.linkedin.com/in/agustinpbosio/">Contactame</a></li>
           </ul>
         </nav>
         <div class="divisor"></div> <!-- Divisor -->
@@ -212,5 +209,6 @@
   </div><!-- FIN CONTENEDOR ANIMACION -->
   
 </body>
-<script></script>
+<script src="/js/obtener.datos.js"></script>
+<script src="/js/actualizarpagina.js"></script>
 </html>
