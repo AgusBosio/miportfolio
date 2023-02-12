@@ -15,9 +15,6 @@ Linkedin: #0E76A8
 H4 idiomas (titulos):#23a6d5
   */
 
-
-
-
 * {
   margin: 0;
   padding: 0;
@@ -33,64 +30,45 @@ body {
   min-height: 100vh;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ee7752;
+  height: 50px;
+}
 
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+nav li {
+  flex-grow: 1;
+  text-align: center;
+}
 
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #ee7752;
-    height: 50px;
-  }
+nav a {
+  display: block;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
 
-  nav ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
+nav a:hover {
+  background-color: #e73c7e;
+}
 
-  nav li {
-    flex-grow: 1;
-    text-align: center;
-  }
+nav a.active {
+  background-color: #23a6d5;
+}
 
-  nav a {
-    display: block;
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-  }
-
-  nav a:hover {
-    background-color: #e73c7e;
-  }
-
-  nav a.active {
-    background-color: #23a6d5;
-  }
-
-  nav a:active {
-    background-color: #23d5ab;
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+nav a:active {
+  background-color: #23d5ab;
+}
+/* Fin del Menu */
 .container {
   position: relative;
   width: 100%;
@@ -111,7 +89,6 @@ body {
   padding: 10px;
   box-shadow: 1px 1px 20px rgba(196, 196, 196, 0.85);
   z-index: 1;
-
 }
 
 .container .col_der {
@@ -119,7 +96,6 @@ body {
   background-color: rgba(243, 243, 243, 0.818);
   padding: 40px;
   border-radius: 20px;
-
 }
 
 .divisor {
@@ -142,7 +118,6 @@ body {
   height: 98px;
   width: 100%;
   margin-bottom: 60px;
-
 }
 
 .pimg {
@@ -163,8 +138,6 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
-
-
 }
 
 .pimg img.otw {
@@ -218,8 +191,7 @@ body {
   cursor: pointer;
 }
 
-
-.contacto_info ul li a {
+.contacto_info ul li {
   display: flex;
   text-decoration: none;
   font-size: 0.79em;
@@ -231,14 +203,14 @@ body {
   display: block;
   width: 30px;
   font-size: 1em;
-  color: #551A8B;
+  color: #551a8b;
 }
 
-.contacto_info ul li span  {
+.contacto_info ul li {
   font-weight: 600;
-  
 }
 
+#correo {font-size: 1em;}
 
 #qr {
   display: flex;
@@ -282,7 +254,6 @@ img.stack {
 
 .idiomas_info {
   padding-top: 5px;
-
 }
 
 .idiomas_info h3 {
@@ -292,9 +263,9 @@ img.stack {
 .idiomas_info ul li {
   position: relative;
   list-style: none;
-  margin: 10px 0;
+  margin: 2px 0;
   cursor: pointer;
-  padding: 5px;
+  padding: 2px;
 }
 
 .idiomas_info h4 {
@@ -305,7 +276,7 @@ img.stack {
 
 .idiomas_info .texto {
   font-size: 0.85em;
-  color: #551A8B;
+  color: #551a8b;
   line-height: 20px;
   font-weight: bold;
 }
@@ -316,7 +287,6 @@ img.stack {
 .educacion_info ul,
 .experiencia_info ul {
   position: relative;
-
 }
 
 .educacion_info ul li,
@@ -325,8 +295,7 @@ img.stack {
   list-style: none;
   margin: 0px 0;
   cursor: pointer;
-  margin-top: 35px;
-
+  margin-top: 10px;
 }
 
 .educacion_info ul li h3,
@@ -351,7 +320,7 @@ img.stack {
   font-size: 0.79em;
   padding: 5px;
   font-weight: 500;
-  color: #551A8B;
+  color: #551a8b;
 }
 
 .educacion_info ul li .fecha,
@@ -361,12 +330,10 @@ img.stack {
   padding: 1px 0px 0px 6px;
   font-weight: 500;
   color: #383838;
-
 }
 
 .educacion_info ul.conocimiento li,
 .experiencia_info ul.conocimiento li {
-
   margin: 1px 0px;
 }
 
@@ -375,17 +342,15 @@ img.stack {
   display: flex;
   flex-direction: column;
   padding: 0px 0px 0px 10px;
-  font-size: .79em;
+  font-size: 0.79em;
   color: #383838;
   margin: 0px;
 }
 
-
 table {
   border-collapse: separate;
-  border-spacing: 12px 25px;
+  border-spacing: 10px 10px;
 }
-
 
 .competencias_info td.hduras,
 td.hblandas,
@@ -393,7 +358,6 @@ td.avance {
   font-size: 0.85em;
   color: #23a6d5;
   font-weight: 700;
-
 }
 
 .competencias_info td.avance1,
@@ -407,29 +371,21 @@ td.avance {
   position: relative;
 }
 
-
 /* INICIO QUERIES*/
-
-body {
-  overflow: hidden;
-}
 
 @media (max-width: 1000px) {
   .container {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
-
   }
 
   .contacto_info {
     font-size: 1.1em;
     text-align: center;
-
   }
 
   .contacto_info a {
     margin-top: 10px;
-
   }
 
   img.stack {
@@ -437,14 +393,12 @@ body {
   }
 
   .idiomas_info {
-
     text-align: center;
   }
 
   .idiomas_info h3 {
     margin: 15px 0px 10px 0px;
   }
-
 
   .idiomas_info h4 {
     font-size: 1.2em;
@@ -455,7 +409,7 @@ body {
 
   .idiomas_info .texto {
     font-size: 1.15em;
-    color: #551A8B;
+    color: #551a8b;
     line-height: 20px;
     font-weight: bold;
   }
@@ -464,28 +418,20 @@ body {
     width: 200px;
   }
 
-
   .educacion_info ul li h3 {
     font-size: 0.68em;
     line-height: 20px;
     margin-bottom: 10px;
     text-align: justify;
-
   }
 
   .educacion_info ul li .texto {
-
-
     padding: 0px;
-
-
   }
-
 
   .educacion_info ul.conocimiento {
     margin-top: 3px;
     padding: 0px 0px 0px 0px;
-    font-size: .79em;
-
+    font-size: 0.79em;
   }
 }
