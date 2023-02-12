@@ -1,3 +1,0 @@
-function actualizarPagina() {
-    location.reload();
-  }
