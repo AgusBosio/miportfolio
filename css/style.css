@@ -33,6 +33,64 @@ body {
   min-height: 100vh;
 }
 
+
+
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ee7752;
+    height: 50px;
+  }
+
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    flex-grow: 1;
+    text-align: center;
+  }
+
+  nav a {
+    display: block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    background-color: #e73c7e;
+  }
+
+  nav a.active {
+    background-color: #23a6d5;
+  }
+
+  nav a:active {
+    background-color: #23d5ab;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container {
   position: relative;
   width: 100%;
@@ -334,26 +392,16 @@ td.avance {
 
 }
 
-.competencias_info td.avance1 {
-  font-size: 0.7em;
-  border: 3px solid #1a9074;
-  background-color: #23d5ab;
-  width: 300px;
-  height: 20px;
-  font-weight: 700;
-
-}
-
+.competencias_info td.avance1,
 .competencias_info td.avance2 {
   font-size: 0.7em;
   border: 3px solid #1a9074;
   background-color: #23d5ab;
-  width: 300px;
   height: 20px;
   font-weight: 700;
-
+  transition: width 4s linear;
+  position: relative;
 }
-
 
 
 /* INICIO QUERIES*/
