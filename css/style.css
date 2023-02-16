@@ -313,12 +313,12 @@ font-size: 0.8em;
 @media (max-width: 1000px) {
 
   body {  
-    overflow: scroll;   
+    overflow:auto;   
     }
   .contenedor--principal {
 
     grid-template-columns: repeat(1, 1fr);
-    margin: 0;
+    margin: 0px;
 
   }
 
