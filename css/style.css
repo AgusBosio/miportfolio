@@ -235,7 +235,9 @@ picture span.github {
 #logo--qr a {font-size: 0.75em;
 font-weight: 600;
 text-decoration: none;
-color:#282828ea;}
+color:#282828ea;
+display: flex;
+justify-content: center;}
 
 
 #logo--qr a:hover{
