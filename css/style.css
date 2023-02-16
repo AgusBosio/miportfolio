@@ -20,7 +20,8 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  overflow: hidden;   
+ object-fit: fill;
+
 
 }
 
@@ -40,32 +41,32 @@ h3 {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  padding-top: 20px;
+  padding-top: 30px;
   margin: 5px;
   letter-spacing: 1px;
 
 }
 
 ul li{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  
   list-style: none;
   text-align: justify;
-  width: 90%;
-  margin-left:10px
+  width: 95%;
+
+   
 }
+
+
 
 /* Aspectos Generales */
 
 .contenedor--principal {
+  width: 960px;
   position: relative;
-  height: 960px;
-  width: 900px;
   display: grid;
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.7);
-  margin: 10px;
+  margin: 20px;
   border-radius: 10px;
   
 }
@@ -77,8 +78,8 @@ ul li{
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
   box-shadow: #414a56dd 0px 0px 5px 0px;
-  height: 960px;
- z-index: 2;
+   z-index: 2;
+
 }
 
 .contenedor--principal .col--der {
@@ -92,7 +93,6 @@ ul li{
 header.info-encabezado {
   background: linear-gradient(-65deg, #E13A3E, #ab2c2f);
   background-color: #E13A3E;
-  width: 100%;
   height: 470px;
   display: flex;
   flex-direction: column;
@@ -243,9 +243,8 @@ color:#282828ea;}
 
 /*  Fin Social Medias */
 
-.tecno_info h3.title,
-.compe_info h3.title,
-.educacion_info h3.title {
+
+.tecno_info h3.title {
   color: #282828ea;
   text-transform: uppercase;
   text-align: center;
@@ -254,7 +253,7 @@ color:#282828ea;}
 }
 
 .tecno_info img.stack {
-  width: 80%;
+  width: 100%;
   height: auto;
   display: block;
   margin: auto;
@@ -265,6 +264,49 @@ color:#282828ea;}
   filter: grayscale(20%)
 }
 
+
+/* Final Columna Izquierda */
+
+/* Inicio Columna  Derecha  */
+
+.educacion_info h3.title, 
+.experiencia_info h3.title,
+.skills_info h3.title  
+{
+  color: #282828ea;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 auto;
+}
+
+ul li h3{color:#2c2929e2;
+  font-size: 14px;
+  text-align: left;}
+
+ li.span.texto, li.span.fecha{color:#2c2929e2;
+    font-size: 14px;
+    text-align: left;}
+  
+
+.skills_info ul { 
+  
+ display: flex;
+ flex-direction: row;
+ flex-wrap: nowrap;
+ gap: 20px;
+ justify-content: center;
+text-align: center;
+}    
+
+
+
+
+.skills_info h4, p { 
+  justify-content: center;
+  text-align: center;
+font-size: 0.8em;
+ }    
 
 /* INICIO QUERIES*/
 
