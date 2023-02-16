@@ -18,11 +18,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
   font-family: "Poppins", sans-serif;
- object-fit: fill;
-
-
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  max-width: 100%;
+  
 }
 
 /* FIN BODY */
@@ -61,14 +62,14 @@ ul li{
 /* Aspectos Generales */
 
 .contenedor--principal {
-  width: 960px;
+  width: 90%;
+  max-width: 960px;
   position: relative;
   display: grid;
   grid-template-columns: 1fr 2fr;
   box-shadow: 0 35px 55px rgba(0, 0, 0, 0.7);
-  margin: 20px;
+  margin: 20px auto;
   border-radius: 10px;
-  
 }
 
 .contenedor--principal .col--izq {
@@ -313,7 +314,7 @@ font-size: 0.8em;
 @media (max-width: 1000px) {
 
   body {  
-    overflow:auto;   
+    overflow:none;   
     }
   .contenedor--principal {
 
