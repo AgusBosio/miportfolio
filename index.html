@@ -1,213 +1,182 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Proyecto Final Argentina Programa 4.0 - Agustin P. Bosio </title>
   <meta name="description"
     content="CV Personal, realizado con las tecnologias HTML, CSS y Javascript, como proyecto final para el curso de Argentina Programa 4.0">
 
-  <link rel="stylesheet" href="/css/style.css" />
-  <link rel="stylesheet" href="/css/normalize.css" />
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/animacion.css">
+  <link rel="stylesheet" href="/css/tooltip.css">
   <link rel="stylesheet" href="/assets/fontawesome/css/all.min.css">
   <link rel="shortcut icon" href="/img/icons/favicon.ico" type="image/x-icon">
-  <meta property="og:title" content="Curriculum Vitae - Trabajo Final Argentina Programa 4.0" />
+  <meta property="og:title" content="Curriculum Vitae - Trabajo Final Argentina Programa 4.0">
   <meta property="og:description"
-    content="Trabajo Final para el curso Argentina Programa 4.0, el cual fue realizado en HTML5 + CSS3 + Javascript" />
-  <meta property="og:image" content="/img/og-image-cv.png" />
+    content="Trabajo Final para el curso Argentina Programa 4.0, el cual fue realizado en HTML5 + CSS3 + Javascript">
+  <meta property="og:image" content="/img/og-image-cv.png">
 
 </head>
 
 <body>
-  <div class="area">
+  <section class="area">
+    <!-- INICIO SECCION ANIMACION -->
     <ul class="circles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul> <!-- FIN AREA ANIMACION BACKGROUND -->
-    <div class="container"> <!-- INICIO CONTENEDOR PRINCIPAL CV -->
-      <div class="col_izq"> <!-- INICIO CONTENEDOR COL-IZQ -->
-        <div class="bckgrd">
-          <div class="pimg">
-            <img class="otw" src="/img/otw.png" alt="Imagen del Perfil del CV" />
-            <div class="foto"></div>
-        </div>
-        </div>
-        <div class="nombre_info">
-          <h2 id="nombre"><br /></h2>
-          <h2><span>Fullstack Web Developer Trainee</span></h2>
-        </div>
-        <nav>
-          <ul>
-            <li><a OnMouseClick="()">Actualizar</a></li>
-            <li><a href="https://www.linkedin.com/in/agustinpbosio/">Programador Trainee</a></li>
-          </ul>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+      <li class="circles__circles"></li>
+    </ul>
+  </section><!-- FIN SECCION ANIMACION -->
+
+  <section class="contenedor--principal">
+    <!-- INICIO CONTENEDOR PRINCIPAL CV -->
+    <main class="col--izq">
+      <!-- INICIO CONTENEDOR COL-IZQ -->
+      <header class="info-encabezado">
+        <picture class="info-encabezado foto"></picture>
+        <h1 id="nombre"></h1>
+       <h3>{ Ssr Developer }</h3>
+          <nav class="info-encabezado__nav">
+          <button id="refresh" class="tooltip"><i class="fa-sharp fa-solid fa-rotate-right fa-2x"><span
+                class="tooltiptext">Actualizá la Página para ver un nuevo Cv. xD</span></i></button>
+          <button id="call" class="tooltip" onclick="Whatsapp()"><i
+              class="fa-sharp fa-solid fa-phone-volume fa-2x"><span class="tooltiptext">Contactar por
+                Whatsapp</span></i></button>
+          <script>
+            function Whatsapp() {
+              window.open("https://api.whatsapp.com/send?phone=nuestronumero&text=nuestromensaje");
+            };</script></button>
+          <button id="mail" class="tooltip" onclick="mail()"><i class="fa-sharp fa-solid fa-paper-plane fa-2x"><span
+                class="tooltiptext">Enviar un mail</span></i>
+            <script>
+              function mail() {
+                var email = document.getElementById("correo").value;
+                window.location.href = "mailto:" + email + "?subject= Indicar motivo de contacto email&body= descripción rapida";
+              };</script>
+          </button>
         </nav>
-        <div class="divisor"></div> <!-- Divisor -->
-        <div class="contacto_info">
-          <h3 class="title">Información de Contacto</h3>
-          <ul>
-            <li>
-              
-                <span class="icono"><i class="fa-sharp fa-solid fa-at"></i></span>
-                <div  id="correo"></div>
-            </li>
-            <li>
-              
-              
-                <span class="icono"><i class="fa-solid fa-user-group"></i></span>
-                <div  id="edad"><p>&nbspaños</p></div>
-            </li>
-            <li>
-             
-                <span class="icono"><i class="fa-solid fa-location-dot"></i></span>
-                <span id="calle"></span>
-            </li>
-            <li>
-             
-                <span class="icono"><i class="fa-solid fa-phone-volume"></i></span>
-                <span id="telefono">(011) 1234-5678</span>
-            </li>
-            
-          </ul>
-          <div id="qr">
-            <img class="lkqr" src="/img/qr-code.svg" alt="QR Linkedin.com" />
-            <span class="lkdin">Seguime en LinkedIn</span>
-          </div>
-          <div class="divisor"></div> <!-- Divisor -->
-        </div>
-        <div class="tecno_info">
-          <h3 class="title">Tecnologías</h3>
-          <div><img class="stack" src="/img/tecnologias.png" alt=""></div>
-          <div class="divisor"></div> <!-- Divisor -->
-        </div>
-        <div class="idiomas_info">
-          <h3 class="title">Idiomas</h3>
-          <ul>
-            <li>
-              <h4>Inglés</h4>
-              <span class="texto">Intermedio - 7 años de estudio</span>
-            </li>
-            <li>
-              <h4>Español</h4>
-              <span class="texto">Nativo</span>
-            </li>
-          </ul>
-        </div>
-      </div> <!-- FIN CONTENEDOR COL-IZQ -->
-      <div class="col_der"><!-- INICIO CONTENEDOR COL-DER -->
+      </header>
+      <section class="social-medias">
+
+        <picture id="logo--qr">
+          <img src="/img/linkedinQR.svg" alt="QR Linkedin.com" />
+                  <a href="#">Encontrame en GitHub: @User Name</a>
+        </picture>
        
-        <div class="divisor"></div> <!-- Divisor -->
-        <div class="educacion_info"><!-- INICIO EDUCACION_INFO -->
-          <h3 class="title">Educación</h3>
-          <ul>
-            <li>
-              <h3>Argentina Programa 4.0 - Ministero de Economia - Economia del Conocimiento</h3>
-              <div class="titulo-carrera"><span class="texto">Desarrollador Web Fullstack</span>
-                <span class="fecha">Inicio: 22/12/2022 | Estado: Cursando</span>
-              </div>
-              <ul class="conocimiento">
-                <li>Front: Maquetado Web, HTML5, CSS3, Javascript, Bootstrap, Buenas Practicas, Prototipado</li>
-              </ul>
-            </li>
+        <picture id="logo--qr">
+          <img src="/img/githubQR.svg" alt="QR Github.com" />
+          <a href="#">Encontrame en GitHub: @Dev Name</a>
+        </picture>
 
-            <li>
-              <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, corporis. </h3>
-              <div class="titulo-carrera"><span class="texto">Lorem, ipsum dolor.</span>
-                <span class="fecha">Inicio: 15/08/2015 | Estado: Finalizado | Promedio: 7.30</span>
-              </div>
-            </li>
+      </section>
+      <div class="divisor"></div> <!-- Divisor -->
 
-            <li>
-              <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eius.</h3>
-              <div class="titulo-carrera"><span class="texto">Lorem, ipsum dolor.</span>
-                <span class="fecha">Inicio: Abril 2019 | Estado: Finalizado</span>
-              </div>
-              <ul class="conocimiento">
-                <li>Lorem ipsum dolor sit amet.</li>
-              </ul>
-            </li>
-            <div class="divisor"></div> <!-- Divisor -->
-          </ul>
-        </div><!-- FIN EDUCACION_INFO -->
+      <section class="tecno_info">
+        <h3 class="title">Tecnologías</h3>
+        <div><img class="stack" src="/img/tecnologias.png" alt=""></div>
 
+      </section>
+      <div class="divisor"></div> <!-- Divisor -->
 
+     
 
-        <div class="experiencia_info"><!-- INICIO EXPERIENCIA INFO -->
-          <h3 class="title">Experiencia Laboral</h3>
-          <ul>
-            <li>
-              <h3>Lorem, ipsum. </h3>
-              <div class="titulo-carrera"><span class="texto">Lorem ipsum dolor sit amet.</span>
-                <span class="fecha">Inicio: Nov. 2019</span>
-              </div>
-              <ul class="conocimiento">
-                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit blanditiis aperiam recusandae nesciunt pariatur impedit enim ipsa rerum laudantium id.</li>
-              </ul>
-            </li>
+    </main> <!-- FIN CONTENEDOR COL-IZQ -->
+    <div class="col--der">
+      <!-- INICIO CONTENEDOR COL-DER -->
 
-            <li>
-              <h3>Lorem consectetur adipisicing elit.</h3>
-              <div class="titulo-carrera"><span class="texto">Lorem ipsum dolor sit amet.</span>
+      
+      <div class="educacion_info">
+        <!-- INICIO EDUCACION_INFO -->
+        <h3 class="title">Educación</h3>
+        <ul>
+          <li>
+            <h3>Argentina Programa 4.0 - Ministero de Economia - Economia del Conocimiento</h3>
+            <div class="titulo-carrera"><span class="texto">Desarrollador Web Fullstack</span>
+              <span class="fecha">Inicio: 22/12/2022 | Estado: Cursando</span>
+            </div>
+            <ul class="conocimiento">
+              <li>Front: Maquetado Web, HTML5, CSS3, Javascript, Bootstrap, Buenas Practicas, Prototipado</li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, corporis. </h3>
+            <div class="titulo-carrera"><span class="texto">Lorem, ipsum dolor.</span>
+              <span class="fecha">Inicio: 15/08/2015 | Estado: Finalizado | Promedio: 7.30</span>
+            </div>
+          </li>
+
+          <li>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, eius.</h3>
+            <div class="titulo-carrera"><span class="texto">Lorem, ipsum dolor.</span>
+              <span class="fecha">Inicio: Abril 2019 | Estado: Finalizado</span>
+            </div>
+            <ul class="conocimiento">
+              <li>Lorem ipsum dolor sit amet.</li>
+            </ul>
+          </li>
+          <div class="divisor"></div> <!-- Divisor -->
+        </ul>
+      </div><!-- FIN EDUCACION_INFO -->
+
+      
+        <!-- INICIO EXPERIENCIA INFO -->
+        <h3 class="title">Experiencia Laboral</h3>
+        <ul>
+          <li>
+            <h3>Lorem, ipsum. </h3>
+            <div class="titulo-carrera"><span class="texto">Lorem ipsum dolor sit amet.</span>
+              <span class="fecha">Inicio: Nov. 2019</span>
+            </div>
+            <ul class="conocimiento">
+              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit blanditiis aperiam recusandae
+                nesciunt pariatur impedit enim ipsa rerum laudantium id.</li>
+            </ul>
+          </li>
+
+          <li>
+            <h3>Lorem consectetur adipisicing elit.</h3>
+            <div class="titulo-carrera"><span class="texto">Lorem ipsum dolor sit amet.</span>
               <span class="fecha">Inicio: Jun. 2019 | Fin: Dic. 2020</span>
-              </div>
-              <ul class="conocimiento">
-                <li>Lorem, ipsum dolor.</li>
-              </ul>
-            </li>
+            </div>
+            <ul class="conocimiento">
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </li>
 
-            <li>
-              <h3>Lorem ipsum sit.</h3>
-              <div class="titulo-carrera"><span class="texto">Lorem ipsum dolor sit amet.</span>
-                <span class="fecha">Inicio: Jun. 2019 | Fin: Dic. 2020</span>
-              </div>
-              <ul class="conocimiento">
-                <li>Lorem amet consectetur.</li>
-              </ul>
-            </li>
-            <div class="divisor"></div> <!-- Divisor -->
-          </ul>
-        </div><!-- FIN EXPERIENCIA_INFO -->
+          <li>
+            <h3>Lorem ipsum sit.</h3>
+            <div class="titulo-carrera"><span class="texto">Lorem ipsum dolor sit amet.</span>
+              <span class="fecha">Inicio: Jun. 2019 | Fin: Dic. 2020</span>
+            </div>
+            <ul class="conocimiento">
+              <li>Lorem amet consectetur.</li>
+            </ul>
+          </li>
+          <div class="divisor"></div> <!-- Divisor -->
+        </ul>
+      
 
-
-        <div class="competencias_info"><!-- INICIO COMPETENCIAS INFO -->
-          <h3 class="title">Competencias y Habilidades</h3>
-          <table>
-            <tbody>
-              <tr>
-                <td class="hduras">Software: Windows</td>
-                <td class="avance2" id="bar">Nivel Intermedio</td>
-
-              </tr>
-              <tr>
-                <td class="hduras">Software: Photoshop, CorelDraw, Canva</td>
-                <td class="avance2">Nivel Basico</td>
-              </tr>
-              <tr>
-                <td class="hduras">Social Medias</td>
-                <td class="avance2">Nivel Intermedio</td>
-              </tr>
-              <tr>
-                <td class="hblandas">Trabajo en Equipo, Pensamiento Lógico, Responsable</td>
-              </tr>
-              </tbody>
-          </table>
-        </div><!-- FIN COMPETENCIAS_INFO -->
-      </div><!-- FIN CONTENEDOR COL-DER -->
-    </div><!-- FIN CONTENEDOR PRINCIAL -->
-  </div><!-- FIN CONTENEDOR ANIMACION -->
-  
+      <section class="competencias_info">
+        <!-- INICIO COMPETENCIAS INFO -->
+        <h3 class="title">Competencias y Habilidades</h3>
+        
+      </section><!-- FIN COMPETENCIAS_INFO -->
+    </div><!-- FIN CONTENEDOR COL-DER -->
+  </section><!-- FIN CONTENEDOR PRINCIAL -->
 </body>
 <script src="/js/obtener.datos.js"></script>
+<script src="/js/actualizar.js"></script>
 
 </html>
