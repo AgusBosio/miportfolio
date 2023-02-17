@@ -1,26 +1,17 @@
-Cosas que fui aprendiendo a lo largo de realizar el Cv, Este ya es el tercer intengo de armar algo prolijo para entregar como final.
+<h1 align="center">Hola! !!👋, bienvenido a mi perfil Me llamo Agustín y espero que disfrutes tu pasar por mi porftolio.</h1>
+<h3 align="center">aprovecho para contarte que soy SR. IT Recruite, Lic. en RRHH, y apasionado por la tecnologia, lo que hoy me lleva a ser programador.</h3>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=agusbosio&label=Profile%20views&color=0e75b6&style=flat" alt="agusbosio" /> </p>
 
-*Es preferible trabajar con Grid para el contenedor princial y usar flexbox para el contenido, de esa manera no se reniega tanto con el responsive y los dispositivos, a diferencia de usar flex solo.
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=agusbosio" alt="agusbosio" /></a> </p>
 
-*La estructura en HTML es muy importante y es preferible si en una primera instancia se maqueta antes y se tiene todo ya planificado, con nombres de contenedores y sus posibles clases.
+- 🌱 Actualmente esto aprendiendo **Javascript, HTML5, CSS, Bootstrap y a consumir API's y XML.**
 
-*existen muchisimos mediaqueries tantos como dispositivos donde sea visible el contenido, es preferible tratar de buscar algo general.
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+</p>
 
-*CSS a pesar de no ser un lenguaje es muy potente como herramienta.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.adobe.com/in/products/illustrator.html" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> </p>
 
-*aprendi a consumir otros CSS a fin de completar mi trabajo, y tambien entender que en este mundo no solo existe lo que uno hace, sino que hay muy buenos aportes de los cuales uno se puede nutrir para hacer un buen trabajo.
-
-*no hay forma de aprender todo lo que una tecnologia ofrece, pero la practica hace al maestro, y practicar es muy importante.
-
-
-* consumir conocimiento de otros colegas ayuda muchisimo a avanzar rapido.
-
-
-* la refactorizacion es muy importante ayuda a mejorar
-
-* hacer un proyecto dejarlo un tiempo y volver a verlo ayuda a encontrar cosas que antes uno no observa.
-
-* se requiere mucha resiliencia y no dejarse vencer por los proyectos, es estar a prueba constantemente ante la frustacion.
-
-*es apasionante ver como todo funciona por mas chico que sea.
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=agusbosio&show_icons=true&locale=en&layout=compact" alt="agusbosio" /></p>
