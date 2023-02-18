@@ -16,8 +16,6 @@
  ❤️  estoy en un momento en mi vida en el cual pude fusionar mis dos pasiones, la cual es Recursos Humanos, y las tecnolog[ias de programación, lo que me llevo hoy a recorrer el camino para convertirme en desarrollador Fullstack.<br/><br/>
 
 
-
-
 ##  Actualmente uso
 
 Actualmente estoy usando las siguentes  tecnologías, porque estoy en proceso de aprendizaje, y en el futuro espero poder seguir aumentando la cantidad de proyecto, te pongo un listado de lo que use para este proyecto:
