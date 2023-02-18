@@ -1,91 +1,47 @@
-<div align="center">
-<img src=" " align="center" style="width: 100%" />
-</div>  
+# Sobre Mi
+<p>
+ <img align="right" width="350" src="/assets/programming.gif" alt="Coding gif" />
   
-
-### <div align="center">Hola, soy Agustin, soy Lic. en RR.HH, SR. Recruiter IT, y actualmente iniciandome como Fullstack Trainee.</div>  
-  
-
-- Actualmente estoy trabajando en mi primer proyecto, y espero pronto tener varios, para que puedas chusmearlos  
-  
-
-- 🌱 Actualmente estoy aprendiendo Javascript, HTML5, CSS3, BOOTSTRAP, y manejo de manera basica Photoshop, CorelDraw, etc.  
-  
-
-- ⚡ Fun fact: Soy Fanatico de Star Wars, el Rock Alternativo  
-  
-
-<br/>  
+ ✌️ &emsp;Hola mi nombre es Agustin, soy Licenciado en Recursos Humanos, con experiencia como SR. IT Technical Recruiter, desde ya muchas gracias por darte una vuelta por mi portfolio. <br/><br/>
+ 
+ <h3 align="left">Podes contactarme en:</h3>
+<p align="left">
+<a href="[(https://www.linkedin.com/in/agustinpbosio/)]" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="agustinpbosio" height="30" width="40" /></a>
+<a href="[(https://www.facebook.com/agustinpbosio])" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="agustinpbosio" height="30" width="40" /></a>
+  </p>
 
 
-## My Skill Set  
-<table><tr><td valign="top" width="33%">
+# Te cuento algo sobre mi forma de ser y deseos. 
+
+ ❤️  estoy en un momento en mi vida en el cual pude fusionar mis dos pasiones, la cual es Recursos Humanos, y las tecnolog[ias de programación, lo que me llevo hoy a recorrer el camino para convertirme en desarrollador Fullstack.<br/><br/>
 
 
 
-### Frontend  
-<div align="center">  
-<a href="https://getbootstrap.com/docs/3.4/javascript/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="Bootstrap" height="50" /></a>  
-<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>  
-<a href="https://en.wikipedia.org/wiki/HTML5" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="HTML5" height="50" /></a>  
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>  
-<a href="https://www.adobe.com/in/products/illustrator.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/adobe_illustrator-icon.svg" alt="Illustrator" height="50" /></a>  
-<a href="https://www.adobe.com/in/products/photoshop.html" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/photoshop-plain.svg" alt="Photoshop" height="50" /></a>  
-</div>
 
-</td><td valign="top" width="33%">
+##  Actualmente uso
 
+Actualmente estoy usando las siguentes  tecnologías, porque estoy en proceso de aprendizaje, y en el futuro espero poder seguir aumentando la cantidad de proyecto, te pongo un listado de lo que use para este proyecto:
 
+<br/>
 
-### Backend  
-<div align="center">  
-  
-</div>
+![Javascript](https://img.shields.io/badge/Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
+![VSCode](https://img.shields.io/badge/Visual_Studio-0078d7?style=for-the-badge&logo=visual%20studio&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Edge](https://img.shields.io/badge/Edge-0078D7?style=for-the-badge&logo=Microsoft-edge&logoColor=white)
+![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
+![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
+![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white)
+![CodePen](https://img.shields.io/badge/CodePen-white?style=for-the-badge&logo=codepen&logoColor=black)
+<br/>
 
-</td><td valign="top" width="33%">
+##  Cosas que me gustaria mejorarle
 
+<br/>
 
+* que todos los datos sean random.
 
-### DevOps  
-<div align="center">  
-  
-</div>
-
-</td></tr></table>  
-
-<br/>  
-
-
-## Connect with me  
-<div align="center">
-<a href="https://github.com/AgusBosio" target="_blank">
-<img src=https://img.shields.io/badge/github-%2324292e.svg?&style=for-the-badge&logo=github&logoColor=white alt=github style="margin-bottom: 5px;" />
-</a>
-<a href="https://linkedin.com/in/https://www.linkedin.com/in/agustinpbosio/" target="_blank">
-<img src=https://img.shields.io/badge/linkedin-%231E77B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white alt=linkedin style="margin-bottom: 5px;" />
-</a>  
-</div>  
-  
-
-<br/>  
-
-
-## Github Stats  
-<div align="center"><img src="[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?agusbosio=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)" align="center" /></div>  
-
-<br/>  
-
-
-### Que vengo escuchando!  
-![Listening to on Spotify](https://spotify-github-profile.vercel.app/api/view?uid=aguchob&cover_image=true&theme=default&show_offline=false&background_color=121212)  
-
-<br/>  
-
-
-<br/>  
-
-<div align="center"></div>
-<br />
-
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
+<br/>
+ 
