@@ -10,9 +10,6 @@
 <a href="[(https://www.facebook.com/agustinpbosio])" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="agustinpbosio" height="30" width="40" /></a>
   </p>
 
-
-
-
 ##  Actualmente para este proyecto use:
 
 <br/>
@@ -26,7 +23,3 @@
 ![Firefox](https://img.shields.io/badge/Firefox-FF7139?style=for-the-badge&logo=Firefox-Browser&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
 <br/>
-
-##  Cosas que me gustaria mejorarle
-
-
