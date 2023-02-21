@@ -23,7 +23,7 @@ body {
   background-attachment: fixed;
   overflow-x: hidden;
   max-width: 100%;
-  
+
 }
 
 /* FIN BODY */
@@ -49,12 +49,12 @@ h3 {
 }
 
 ul li{
-  
+
   list-style: none;
   text-align: justify;
   width: 95%;
 
-   
+
 }
 
 
@@ -272,9 +272,9 @@ justify-content: center;}
 
 /* Inicio Columna  Derecha  */
 
-.educacion_info h3.title, 
+.educacion_info h3.title,
 .experiencia_info h3.title,
-.skills_info h3.title  
+.skills_info h3.title
 {
   color: #282828ea;
   text-transform: uppercase;
@@ -290,26 +290,26 @@ ul li h3{color:#2c2929e2;
  li.span.texto, li.span.fecha{color:#2c2929e2;
     font-size: 14px;
     text-align: left;}
-  
 
-.skills_info ul { 
-  
+
+.skills_info ul {
+
  display: flex;
  flex-direction: row;
  flex-wrap: nowrap;
  gap: 20px;
  justify-content: center;
 text-align: center;
-}    
+}
 
 
 
 
-.skills_info h4, p { 
+.skills_info h4, p {
   justify-content: center;
   text-align: center;
 font-size: 0.8em;
- }    
+ }
 
 /* INICIO QUERIES*/
 
